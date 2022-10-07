@@ -68,6 +68,41 @@ main > * {
   margin-bottom: .5rem;
 }
 
+
+
+
+
+
 /* media queries */
 
+@media screen and (max-width: 600px){
+  header {
+      align-items: flex-start;
+      flex-direction: column;
+  }
+
+  body {
+      flex-direction: column;
+  }
+
+  nav {
+      flex-direction: row;
+  }
+
+  main {
+    
+      height: 80vh;
+      width: 100%
+  }
+  
+  main div {
+      width: 100%;
+  }
+
+  .airplane-card {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+  }
 /* YOUR CODE HERE */
